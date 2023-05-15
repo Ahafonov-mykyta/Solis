@@ -115,7 +115,8 @@ body.noscroll {
   top: 0;
   right: 0;
   background: linear-gradient(270deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.244636) 24.1%, rgba(255, 255, 255, 0) 47.19%), rgba(255, 255, 255, 0.02);
-  backdrop-filter: blur(4.5px);
+  -webkit-backdrop-filter: blur(4.5px);
+          backdrop-filter: blur(4.5px);
 }
 @media screen and (max-width: 1440px) {
   .header {
@@ -130,7 +131,7 @@ body.noscroll {
 @media screen and (max-width: 800px) {
   .header {
     position: fixed;
-    background: rgba(84, 84, 84, 0.8);
+    background: rgba(106, 105, 105, 0.8);
     margin-top: 0;
     display: flex;
     z-index: 50;
@@ -158,11 +159,6 @@ body.noscroll {
     margin-top: -10px;
   }
 }
-@media screen and (max-width: 500px) {
-  .header_logo {
-    width: 150px;
-  }
-}
 
 .navigation {
   display: flex;
@@ -177,11 +173,6 @@ body.noscroll {
     display: flex;
     flex-direction: column;
     gap: 45px;
-  }
-}
-@media screen and (max-width: 500px) {
-  .menu {
-    gap: 20px;
   }
 }
 
@@ -229,11 +220,6 @@ body.noscroll {
     flex-direction: column;
     text-align: start;
     font-size: 40px;
-  }
-}
-@media screen and (max-width: 500px) {
-  .menu__item__link {
-    font-size: 25px;
   }
 }
 
@@ -560,7 +546,8 @@ body.noscroll {
     width: 100%;
     height: 65px;
     background: rgba(133, 187, 177, 0.5);
-    backdrop-filter: blur(4.5px);
+    -webkit-backdrop-filter: blur(4.5px);
+            backdrop-filter: blur(4.5px);
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -568,7 +555,8 @@ body.noscroll {
   }
   .menu_mobile.active {
     background: transparent;
-    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+            backdrop-filter: none;
   }
 }
 .menu_mobile.active .burger__image {
