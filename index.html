@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/main.min.css" />
+    <title>Solis</title>
+  </head>
+  <body>
+    <div class="menu_mobile">
+      <button class="burger" type="button">
+        <img class="burger__image" src="./images/burger.png" alt="menu hamburger" />
+        <img class="burger__close" src="./images/close.png" alt="close menu hamburger" />
+      </button>
+    </div>
+    <header class="header">
+      <a href="/"> <img src="./images/logo.svg" class="header_logo" alt="Solis logo" /></a>
+      <nav class="navigation">
+        <ul class="menu">
+          <li class="menu__item"><a class="menu__item__link" href="#home">Home</a></li>
+          <li class="menu__item"><a class="menu__item__link" href="#about">About</a></li>
+          <li class="menu__item"><a class="menu__item__link" href="#product">Products</a></li>
+          <li class="menu__item"><a class="menu__item__link" href="/">Use Cases</a></li>
+          <li class="menu__item"><a class="menu__item__link" href="/">Pricing</a></li>
+          <li class="menu__item"><a class="menu__item__link" href="/">Resources</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="home" class="container hero">
+        <div class="hero_content">
+          <h1 class="title wow animate__fadeInLeft" data-wow-duration="0.5s">
+            A peer-to-peer stablecoin<br />
+            <span class="title--acent">clearinghouse</span> for the new<br />
+            economy
+          </h1>
+          <h2 class="description wow animate__fadeInLeft" data-wow-duration="0.7s">
+            We are bringing real solutions to the payments world by <br />leveraging public
+            blockchains.
+          </h2>
+          <button type="button" class="button">JOIN NOW</button>
+        </div>
+      </section>
+      <section id="about" class="container about">
+        <img class="about__image" src="./images/about-min.jpg" alt="skyscrapers" />
+        <div class="about__info">
+          <div class="statistics">
+            <ul class="statistics__list">
+              <li class="statistics__list__item">
+                <h3 class="statistics__list__item__title">
+                  <span class="statistics__list__item__title--accent">$</span>1 tril
+                </h3>
+                <p class="description">Market cap potential</p>
+              </li>
+              <li class="statistics__list__item">
+                <h3 class="statistics__list__item__title">
+                  <span class="statistics__list__item__title--accent">$</span>3.65 mil
+                </h3>
+                <p class="description">Deposited to platform</p>
+              </li>
+              <li class="statistics__list__item">
+                <h3 class="statistics__list__item__title">12</h3>
+                <p class="description">Stablecoins</p>
+              </li>
+            </ul>
+          </div>
+          <div class="info">
+            <p class="description">
+              Solis group is a new venture created with investments from and collaboration with XBTO
+              International, XBTO Ventures and Phil Potter, formerly of bitfinex. Stablehouse is
+              intended to launch a first-of-its-kind clearing house for stablecoins that seeks to
+              promote the next phase of the market’s development. <br /><br />The API-enabled,
+              centralized platform addresses the key issues of inconsistent liquidity, stability and
+              accessibility which are currently preventing the stablecoin market from reaching
+              critical mass.
+            </p>
+            <button type="button" class="button">Contact sales</button>
+          </div>
+        </div>
+      </section>
+      <section id="product" class="container product">
+        <ul class="products">
+          <li class="products__item wow animate__slideInUp" data-wow-duration="1s">
+            <a class="products__item__link" href="/">
+              <h3 class="title">
+                Qualified <span class="title--acent">traders</span> and liquidty
+                <span class="title--acent">solutions</span>
+              </h3>
+              <p class="description">
+                Trade easily and efficiently between 12 stablecoins, including USDT, TrueUSD, Dai,
+                Eurs and Gemini Dollar.
+              </p></a
+            >
+          </li>
+          <li class="products__item wow animate__slideInUp" data-wow-duration="1s">
+            <a class="products__item__link" href="/"
+              ><h3 class="title">
+                Settlement/OTC API and <span class="title--acent">integration</span>
+              </h3>
+              <p class="description">
+                Integrate OTC operations and settlements using our efficient API.
+              </p></a
+            >
+          </li>
+          <li class="products__item wow animate__slideInUp" data-wow-duration="1s"">
+            <a class="products__item__link" href="/">
+              <h3 class="title">The best <span class="title--acent">payments solutions</span></h3>
+              <p class="description">
+                For all stablecoin payments, from point-of-sale transactions to website solutions.
+                If you use stablecoins in your business, Stablehouse is for you.
+              </p>
+            </a>
+          </li>
+          <li class="products__item wow animate__slideInUp" data-wow-duration="1s"">
+            <a class="products__item__link" href="/">
+              <h3 class="title">
+                <span class="title--acent">Treasury</span> and
+                <span class="title--acent">returns</span> for stablecoin stores
+              </h3>
+              <p class="description">
+                Automate your stablecoin store with instant payments and on-the-fly conversion
+                between different stablecoins.
+              </p>
+            </a>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <script src="./js/burger.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+  </body>
+</html>

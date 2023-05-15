@@ -1,0 +1,46 @@
+body {
+  background-color: var(--bg);
+  font-family: var(--primary-font);
+  font-weight: 300;
+  font-size: 18px;
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+input,
+textarea,
+label {
+  margin: 0;
+  padding: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
