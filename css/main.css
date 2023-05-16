@@ -130,7 +130,7 @@ body.noscroll {
 @media screen and (max-width: 800px) {
   .header {
     position: fixed;
-    background: rgba(84, 84, 84, 0.8);
+    background: rgba(84, 84, 84, 0.9);
     margin-top: 0;
     display: flex;
     z-index: 50;
@@ -229,6 +229,7 @@ body.noscroll {
     flex-direction: column;
     text-align: start;
     font-size: 40px;
+    color: white;
   }
 }
 @media screen and (max-width: 500px) {
@@ -283,6 +284,23 @@ body.noscroll {
 }
 .hero_content .description {
   margin-bottom: 50px;
+}
+@media screen and (max-width: 600px) {
+  .hero_content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .hero_content .button {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .hero_content .title {
+    text-align: center;
+  }
+  .hero_content .description {
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 600px) {

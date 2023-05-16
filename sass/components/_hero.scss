@@ -60,7 +60,7 @@ body {
 
   @media screen and (max-width: 800px) {
     position: fixed;
-    background: rgba($color: #545454, $alpha: 0.8);
+    background: rgba($color: #545454, $alpha: 0.9);
     margin-top: 0;
     display: flex;
     z-index: 50;
@@ -154,6 +154,7 @@ body {
 
     text-align: start;
     font-size: 40px;
+    color: white;
   }
 
   @media screen and (max-width: 500px) {
@@ -204,6 +205,24 @@ body {
 
   & .description {
     margin-bottom: 50px;
+  }
+
+  @media screen and (max-width: 600px) {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    & .button {
+      margin-right: auto;
+      margin-left: auto;
+    }
+
+    & .title {
+      text-align: center;
+    }
+
+    & .description {
+      text-align: center;
+    }
   }
 }
 
